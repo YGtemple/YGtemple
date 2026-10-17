@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=180&section=header&fontSize=10&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF0F5,100:F7A8C4&height=200&section=header&fontSize=10" width="100%"/>
 
-<img src="https://img.shields.io/badge/YGtemple-1a1a2e?style=for-the-badge&labelColor=16213e" height="34"/>
+<img src="https://img.shields.io/badge/YGtemple-C2185B?style=for-the-badge&labelColor=F7A8C4" height="34"/>
 
 <br/>
 
@@ -10,10 +10,11 @@
 
 <br/><br/>
 
-<a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-455A64?style=flat-square&labelColor=263238" height="24" alt="AI 应用"/></a>
-<a href="#内容生产"><img src="https://img.shields.io/badge/%E5%86%85%E5%AE%B9%E7%94%9F%E4%BA%A7-455A64?style=flat-square&labelColor=263238" height="24" alt="内容生产"/></a>
-<a href="#工具与脚本"><img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%84%9A%E6%9C%AC-455A64?style=flat-square&labelColor=263238" height="24" alt="工具与脚本"/></a>
-<a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-455A64?style=flat-square&labelColor=263238" height="24" alt="其他"/></a>
+<a href="#-精选"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20%E7%B2%BE%E9%80%89-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="精选"/></a>
+<a href="#-ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
+<a href="#-内容与游戏"><img src="https://img.shields.io/badge/%E5%86%85%E5%AE%B9%E4%B8%8E%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="内容与游戏"/></a>
+<a href="#-工具与脚本"><img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%84%9A%E6%9C%AC-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="工具与脚本"/></a>
+<a href="#-其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
 
 </div>
 
@@ -21,7 +22,17 @@
 
 ---
 
-<h2 id="ai-应用" align="center">AI 应用</h2>
+<h2 id="-精选" align="center">🌸 精选</h2>
+
+<br/>
+
+### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
+
+<sub>`TypeScript` `Cocos Creator 3.8`</sub>
+
+微信小游戏，18 种玩法、5 档模式、240 关。
+
+玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
 
 <br/>
 
@@ -51,6 +62,18 @@
 
 四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
 
+---
+
+<h2 id="-ai-应用" align="center">🌸 AI 应用</h2>
+
+<br/>
+
+### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
+
+<sub>`Python` `Pygame`</sub>
+
+迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
+
 <br/>
 
 ### [rongyan](https://github.com/YGtemple/rongyan)
@@ -63,37 +86,43 @@
 
 ---
 
-<h2 id="内容生产" align="center">内容生产</h2>
+<h2 id="-内容与游戏" align="center">🌸 内容与游戏</h2>
 
 <br/>
 
-### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
+### [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)
 
-<sub>`TypeScript` `Cocos Creator 3.8`</sub>
+<sub>`Skill`</sub>
 
-微信小游戏，18 种玩法、5 档模式、240 关。
-
-玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
+剪映的自动化操作，附带规则与提示词。
 
 <br/>
 
-### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
+### [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)
 
-<sub>`Python` `Pygame`</sub>
+<sub>`Skill`</sub>
 
-迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
+把剧本整理成镜头表。
+
+<br/>
+
+### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
+
+<sub>`JavaScript` `Python`</sub>
+
+代码动画的渲染与音效脚本。
+
+<br/>
+
+### [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi)
+
+<sub>`Skill`</sub>
+
+影视制作相关的工具与项目模板。
 
 ---
 
-<h2 id="工具与脚本" align="center">工具与脚本</h2>
-
-<br/>
-
-### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
-
-<sub>`JavaScript`</sub>
-
-多模型请求的分发与切换，带依赖版本锁和变更记录。
+<h2 id="-工具与脚本" align="center">🌸 工具与脚本</h2>
 
 <br/>
 
@@ -112,6 +141,14 @@
 <sub>`JavaScript`</sub>
 
 用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
+
+<br/>
+
+### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
+
+<sub>`JavaScript`</sub>
+
+多模型请求的分发与切换，带依赖版本锁和变更记录。
 
 <br/>
 
@@ -139,7 +176,7 @@
 
 ---
 
-<h2 id="其他" align="center">其他</h2>
+<h2 id="-其他" align="center">🌸 其他</h2>
 
 <br/>
 
@@ -164,22 +201,14 @@
 
 [wechat-longform-article](https://github.com/YGtemple/wechat-longform-article)<br/><sub>公众号长文排版</sub>
 
-[jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)<br/><sub>剪映的自动化操作</sub>
+[qt-learning](https://github.com/YGtemple/qt-learning)<br/><sub>Qt 练习</sub>
 
-[drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)<br/><sub>剧本整理成镜头表</sub>
-
-[code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)<br/><sub>代码动画的渲染与音效</sub>
-
-[ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi)<br/><sub>影视制作的工具与模板</sub>
+[cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ 课程设计</sub>
 
 </td>
 <td width="33%" valign="top">
 
 **练习与记录**
-
-[qt-learning](https://github.com/YGtemple/qt-learning)<br/><sub>Qt 练习</sub>
-
-[cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ 课程设计</sub>
 
 [doubao-free](https://github.com/YGtemple/doubao-free)<br/><sub>浏览器扩展</sub>
 
@@ -199,6 +228,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=90&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7A8C4,100:FFF0F5&height=100&section=footer" width="100%"/>
 
 </div>
