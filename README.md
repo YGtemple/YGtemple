@@ -17,7 +17,7 @@
 ### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
 **LangGraph + FastAPI 网络梗 Agent**
 
-24 个 Python 模块，多 LLM 路由 + 多搜索源故障转移。核心逻辑分在三层：
+24 个 Python 模块，多 LLM 路由 + 多搜索源故障转移。核心逻辑分三层：
 
 - `intelligence.py`（26 KB）— 推理主链
 - `llm_providers.py`（15.7 KB）— 多模型适配
@@ -51,7 +51,7 @@
 
 README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PARTY_NOTICES.md`、CONTRIBUTING、DISCLAIMER 全套。
 
-**看点是工程规范**：版本锁、上游依赖溯源、变更记录完整。这是 40 个仓库里流程最规范的一个。
+**看点是工程规范**：版本锁、上游依赖溯源、变更记录完整。是这堆仓库里流程最规范的一个。
 
 `JavaScript`
 
@@ -61,9 +61,9 @@ README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PAR
 ### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
 **Cocos Creator 3.8 微信小游戏**
 
-18 种玩法 / 5 档模式 / 240 关，休闲外壳 + 分级词汇训练内核 + 萌宠养成闭环。
+18 种玩法 / 5 档模式 / 240 关，休闲外壳 + 分级词汇训练内核 + 萌宠养成闭环。工具链已合并进来（`tooling/`）。
 
-**看点是多 AI 协同**：契约驱动开发——三个 AI 各管一块，靠 `CONTRACT.md` 冻结接口，用 `build.js` 的 50 项检查保证不越界。
+**看点是多 AI 协同**：契约驱动开发——三个 AI 各管一块，靠 `CONTRACT.md` 冻结接口，用 `build.js` 的 14 个检查模块守边界。
 
 `TypeScript`
 
@@ -80,11 +80,13 @@ README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PAR
 <td width="50%" valign="top">
 
 ### [ai-drama-master-suite](https://github.com/YGtemple/ai-drama-master-suite)
-**AI 短剧全链路制作技能套件**
+**AI 短剧全链路制作套件**
 
-`SKILL.md` **125 KB** —— 全仓最大的单文件。覆盖剧本 → 资产 → 分镜 → 视频生成的完整链路，配完整 references 方法库。
+`SKILL.md` **125 KB** —— 全仓最大的单文件，覆盖剧本 → 资产 → 分镜 → 视频生成完整链路。
 
-实际使用案例见下方两个仓库。
+`cases/` 下是四部真实片子的使用记录（《反话》《国家的孩子》《一会儿》《凝视的接力》）——**方法定义 + 实际案例放在一起**。
+
+**看点是那四份案例**：跨龄面容一致性、道具连续性表、人称表、25 部影片手法矩阵。
 
 </td>
 <td width="50%" valign="top">
@@ -92,27 +94,9 @@ README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PAR
 ### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
 **四大专项 AI 视频提示词生成器**
 
-电商 TVC / 宋式田园 / 中式巨物 / 高燃打斗四套。**唯一有外部关注的项目**（3 star / 1 fork）。
+电商 TVC / 宋式田园 / 中式巨物 / 高燃打斗四套。
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [ai-drama-asset-prompts](https://github.com/YGtemple/ai-drama-asset-prompts)
-**真人短剧资产提示词工程实录**
-
-四个真实项目的资产方法论：跨龄面容一致性、站位机位锁定、道具连续性表、版本修正机制。
-
-**看点是实战**：《反话》《国家的孩子》《一会儿》《凝视的接力》四部片子的一手踩坑。
-
-</td>
-<td width="50%" valign="top">
-
-### [ai-film-production](https://github.com/YGtemple/ai-film-production)
-**AI 影视生产方法论实录**
-
-44 集知识短片的完整产线 + 一部短片《北平的雪》的八阶段管线产物。含时长复核表、史料考据与事实红线。
+**唯一有外部关注的项目**（3 star / 1 fork）。
 
 </td>
 </tr>
@@ -193,23 +177,57 @@ README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PAR
 
 ---
 
-## 📚 四、学习与沉淀
+## 📂 四、按类型找（新内容往哪放）
+
+### A 类 · 架构设计文档包
+
+完整的产品架构文档，通常是 HTML + docx 双版本。
+
+| 仓库 | 内容 |
+|---|---|
+| [zhinengtiku](https://github.com/YGtemple/zhinengtiku) | 智能题库平台：6 套架构文档（战略/架构/API/数据库/AI服务/安全合规/运维）+ 圆桌评审 |
+
+**新文档放法**：按 `0X-主题名称` 编号，HTML 与 docx 同名配对，不要打 zip 包。
+
+### B 类 · 调研与研究笔记
+
+纯文本研究，无代码。结论与原始素材分开放。
+
+| 仓库 | 结构与放法 |
+|---|---|
+| [legal-ai-agent-research](https://github.com/YGtemple/legal-ai-agent-research) | `research/` 放原始调研，`report/` 放结论 |
+| [China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global) | 单篇 README，内容还不多，可以继续扩充 |
+
+**新的调研类内容**：放 `research/`；形成结论了再写 `report/`。
+
+### C 类 · 可执行的工具 / Skill
+
+有代码或 `SKILL.md`，能直接跑或直接用。
+
+| 仓库 | 实际内容 |
+|---|---|
+| [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook) | `render.js` 46 KB + `sfx.py` + `metrics.py` + ROADMAP，代码动画渲染引擎 |
+| [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill) | `SKILL.md` 16.3 KB + `docs/` `prompts/` `rules/` 三目录，剪映自动化 |
+| [UItimateWriter](https://github.com/YGtemple/UItimateWriter) | `ultimate-writing/` 技能包，中文写作系统 |
+| [wechat-longform-article](https://github.com/YGtemple/wechat-longform-article) | `template.html` 31.5 KB，公众号长文排版模板 |
+| [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director) | `SKILL.md` + `references/`，剧本转分镜表 |
+| [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi) | 11 个影视 Skill + 项目模板 |
+
+**新的 Skill 放法**：`SKILL.md` + `references/`（参考库）+ `docs/`（说明）。如果有可复用规则，单独开 `rules/`。
+
+### D 类 · 学习记录
+
+技术学习过程的笔记与练习代码。
 
 | 仓库 | 内容 |
 |---|---|
 | [qt-learning](https://github.com/YGtemple/qt-learning) | Qt6 练习集，含手写表达式解析与跨线程隐患分析 |
-| [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook) | 代码动画手册 |
-| [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill) | 剪映自动化：UI + 草稿 JSON 双引擎 |
-| [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director) | 剧本 → 15 秒分段快切分镜表 |
-| [UItimateWriter](https://github.com/YGtemple/UItimateWriter) | 中文写作系统：去 AI 味、九大场景 |
-| [wechat-longform-article](https://github.com/YGtemple/wechat-longform-article) | 公众号长文流水线 |
-| [zhuxin](https://github.com/YGtemple/zhuxin) | 单文件静态简历与作品集 |
 | [cpp-course-designs](https://github.com/YGtemple/cpp-course-designs) | C++ 课程设计（职工管理、通讯录） |
-| [doubao-free](https://github.com/YGtemple/doubao-free) | 浏览器扩展 |
-| [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi) | AI 影视 Skill 工程包 |
-| [ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation) | 校园 AI 小组官网 |
-| [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai) | 陪伴类应用 |
+| [doubao-free](https://github.com/YGtemple/doubao-free) | 浏览器扩展源码研读 |
+| [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai) | 陪伴类应用实践 |
 | [jw-monitor](https://github.com/YGtemple/jw-monitor) | 选课监测脚本 |
+| [ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation) | 校园 AI 小组官网 |
+| [zhuxin](https://github.com/YGtemple/zhuxin) | 单文件静态简历与作品集 |
 
 ---
 
@@ -222,6 +240,21 @@ README **49 KB**、CHANGELOG **19.8 KB**，配 `upstream-lock.json`、`THIRD_PAR
 **3. 保留错误的痕迹。** 学习记录里注释掉的试错代码、`v1 误写单眼皮作废` 这种修正说明，比正确版本更能说明问题在哪。
 
 **4. 不写没验证过的数字。** 大创材料里明确要求：不把准确率、用户数、营收写成成果，除非有真实记录。
+
+---
+
+## 仓库整理说明
+
+**已合并的重复仓库**（原仓库保留为归档，README 已标注指向新位置）：
+
+| 原仓库 | 并入 |
+|---|---|
+| `word-sprite-quest-tooling` | [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest) `tooling/` |
+| `word-sprite-quest-v13-toolchain` | [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest) `tooling/config/` |
+| `ai-film-production` | [ai-drama-master-suite](https://github.com/YGtemple/ai-drama-master-suite) `cases/` |
+| `ai-drama-asset-prompts` | [ai-drama-master-suite](https://github.com/YGtemple/ai-drama-master-suite) `cases/` |
+
+合并原则：**只有同一方法体系的「定义」与「案例」、或同一个项目被拆开的产物才合并**。内容不相干的仓库各自独立，不硬凑。
 
 ---
 
