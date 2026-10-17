@@ -10,10 +10,10 @@
 
 <br/><br/>
 
-<a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
+<a href="#ai-工具"><img src="https://img.shields.io/badge/AI%20%E5%B7%A5%E5%85%B7-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 工具"/></a>
 <a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
 <a href="#影视与内容"><img src="https://img.shields.io/badge/%E5%BD%B1%E8%A7%86%E4%B8%8E%E5%86%85%E5%AE%B9-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="影视与内容"/></a>
-<a href="#工具与脚本"><img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%84%9A%E6%9C%AC-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="工具与脚本"/></a>
+<a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
 <a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
 
 </div>
@@ -22,38 +22,9 @@
 
 ---
 
-<h2 id="游戏" align="center">🌸 游戏</h2>
+<h2 id="ai-工具" align="center">🌸 AI 工具</h2>
 
-<br/>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-#### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
-
-<sub>`TypeScript` `Cocos Creator 3.8`</sub>
-
-微信小游戏，18 种玩法、5 档模式、240 关。
-
-玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
-
-</td>
-<td width="50%" valign="top">
-
-#### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
-
-<sub>`Python` `Pygame`</sub>
-
-迷宫寻路的实现，包含五种算法和一组跑出来的性能对比数据。
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
+<sub>把重复的活交给脚本——文档、演示、素材、检索</sub>
 
 <br/>
 
@@ -65,7 +36,7 @@
 
 <sub>`Python` `LangGraph` `FastAPI`</sub>
 
-基于 LangGraph 与 FastAPI 的网络梗检索 Agent，接入了多个模型和搜索引擎。
+网络梗检索 Agent，接入了多个模型和搜索引擎。
 
 把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
 
@@ -82,6 +53,79 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [pptx-generator](https://github.com/YGtemple/pptx-generator)
+
+<sub>`JavaScript` `Python`</sub>
+
+用代码生成 PPT。把元素组织成树形结构，坐标逐层累加，省去手工计算位置。
+
+另配一套 matplotlib 画图的脚本，用来生成算法图示。
+
+</td>
+<td width="50%" valign="top">
+
+#### [docx-generator](https://github.com/YGtemple/docx-generator)
+
+<sub>`JavaScript`</sub>
+
+用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
+
+<sub>`Prompt`</sub>
+
+四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
+
+</td>
+<td width="50%" valign="top">
+
+#### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
+
+<sub>`Markdown`</sub>
+
+整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [dsh-engineering-notes](https://github.com/YGtemple/dsh-engineering-notes)
+
+<sub>`Markdown`</sub>
+
+接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
+
+</td>
+<td width="50%" valign="top">
+
+#### [academic-skills-max](https://github.com/YGtemple/academic-skills-max)
+
+<sub>`Skill`</sub>
+
+8 个学术类技能的选型与串联说明。
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
+
+<sub>带完整交互的产品，不只是脚本</sub>
+
+<br/>
+
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
@@ -150,6 +194,8 @@
 
 <h2 id="影视与内容" align="center">🌸 影视与内容</h2>
 
+<sub>从剧本到成片，以及围绕它的工具</sub>
+
 <br/>
 
 <table align="center">
@@ -167,17 +213,6 @@
 </td>
 <td width="50%" valign="top">
 
-#### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
-
-<sub>`Prompt`</sub>
-
-四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 #### [ai-story-vault](https://github.com/YGtemple/ai-story-vault)
 
 <sub>`Python`</sub>
@@ -185,6 +220,8 @@
 爆款故事短片的素材库，把案例整理成可检索的结构，用起来会越积越多。
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)
@@ -194,8 +231,6 @@
 剪映的自动化操作，附带规则与提示词。
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)
@@ -203,15 +238,6 @@
 <sub>`Skill`</sub>
 
 把剧本整理成镜头表，按 15 秒分段。
-
-</td>
-<td width="50%" valign="top">
-
-#### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
-
-<sub>`JavaScript` `Python`</sub>
-
-代码动画的渲染与音效脚本。
 
 </td>
 </tr>
@@ -227,11 +253,11 @@
 </td>
 <td width="50%" valign="top">
 
-#### [academic-skills-max](https://github.com/YGtemple/academic-skills-max)
+#### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
 
-<sub>`Skill`</sub>
+<sub>`JavaScript` `Python`</sub>
 
-8 个学术类技能的选型与串联说明。
+代码动画的渲染与音效脚本。
 
 </td>
 </tr>
@@ -239,7 +265,7 @@
 
 ---
 
-<h2 id="工具与脚本" align="center">🌸 工具与脚本</h2>
+<h2 id="游戏" align="center">🌸 游戏</h2>
 
 <br/>
 
@@ -247,62 +273,22 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [pptx-generator](https://github.com/YGtemple/pptx-generator)
+#### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
 
-<sub>`JavaScript` `Python`</sub>
+<sub>`TypeScript` `Cocos Creator 3.8`</sub>
 
-用代码生成 PPT。把元素组织成树形结构，坐标逐层累加，省去手工计算位置。
+微信小游戏，18 种玩法、5 档模式、240 关。
 
-另配一套 matplotlib 画图的脚本，用来生成算法图示。
-
-</td>
-<td width="50%" valign="top">
-
-#### [docx-generator](https://github.com/YGtemple/docx-generator)
-
-<sub>`JavaScript`</sub>
-
-用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)
-
-<sub>`HTML`</sub>
-
-计算机等级考试的题库与刷题页面，题库和界面打包在同一个小文件里，双击就能用。
+玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
 
 </td>
 <td width="50%" valign="top">
 
-#### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
+#### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
 
-<sub>`Markdown`</sub>
+<sub>`Python` `Pygame`</sub>
 
-整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [dsh-engineering-notes](https://github.com/YGtemple/dsh-engineering-notes)
-
-<sub>`Markdown`</sub>
-
-接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
-
-</td>
-<td width="50%" valign="top">
-
-#### [virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)
-
-<sub>`HTML`</sub>
-
-弗吉尼亚·伍尔夫生平与《Professions for Women》的课堂演讲演示。
+迷宫寻路的实现，包含五种算法和一组跑出来的性能对比数据。
 
 </td>
 </tr>
@@ -344,11 +330,15 @@
 
 **练习与记录**
 
+[computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)<br/><sub>等级考试题库</sub>
+
 [doubao-free](https://github.com/YGtemple/doubao-free)<br/><sub>浏览器扩展</sub>
 
 [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>成长站点</sub>
 
 [jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>选课状态监测</sub>
+
+[virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)<br/><sub>课堂演讲演示</sub>
 
 [ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation)<br/><sub>校园技术小组页面</sub>
 
