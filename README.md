@@ -10,8 +10,8 @@
 
 <br/><br/>
 
-<a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
 <a href="#ai-工具"><img src="https://img.shields.io/badge/AI%20%E5%B7%A5%E5%85%B7-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 工具"/></a>
+<a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
 <a href="#影视与内容"><img src="https://img.shields.io/badge/%E5%BD%B1%E8%A7%86%E4%B8%8E%E5%86%85%E5%AE%B9-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="影视与内容"/></a>
 <a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
 <a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
@@ -19,6 +19,103 @@
 </div>
 
 <br/>
+
+---
+
+<h2 id="ai-工具" align="center">🌸 AI 工具</h2>
+
+<sub>把重复的活交给脚本——路由、文档、演示、素材</sub>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
+
+<sub>`TypeScript`</sub>
+
+让模型的请求能在多个客户端之间分发和切换，包括 WorkBuddy 的国际版。
+
+国际版的登录流程、接口地址、会话续期都和国内版不同。实现上把每个客户端压成一份描述，分发层不认识任何具体产品——后来接 Trae 时只加了一份描述，路由代码没动。
+
+</td>
+<td width="50%" valign="top">
+
+#### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
+
+<sub>`Python` `LangGraph` `FastAPI`</sub>
+
+网络梗检索 Agent，接入了多个模型和搜索引擎。
+
+把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [pptx-generator](https://github.com/YGtemple/pptx-generator)
+
+<sub>`JavaScript` `Python`</sub>
+
+用代码生成 PPT。把元素组织成树形结构，坐标逐层累加，省去手工计算位置。
+
+另配一套 matplotlib 画图的脚本，用来生成算法图示。
+
+</td>
+<td width="50%" valign="top">
+
+#### [docx-generator](https://github.com/YGtemple/docx-generator)
+
+<sub>`JavaScript`</sub>
+
+用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
+
+<sub>`Prompt`</sub>
+
+四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
+
+</td>
+<td width="50%" valign="top">
+
+#### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
+
+<sub>`Markdown`</sub>
+
+整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [dsh-engineering-notes](https://github.com/YGtemple/dsh-engineering-notes)
+
+<sub>`Markdown`</sub>
+
+接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
+
+</td>
+<td width="50%" valign="top">
+
+#### [academic-skills-max](https://github.com/YGtemple/academic-skills-max)
+
+<sub>`Skill`</sub>
+
+8 个学术类技能的选型与串联说明。
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -88,103 +185,6 @@
 <sub>`CSS`</sub>
 
 双语 AI 术语知识库，每个术语配通俗解释和可直接复制的提问模板。
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 id="ai-工具" align="center">🌸 AI 工具</h2>
-
-<sub>把重复的活交给脚本——文档、演示、素材、检索</sub>
-
-<br/>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-#### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
-
-<sub>`Python` `LangGraph` `FastAPI`</sub>
-
-网络梗检索 Agent，接入了多个模型和搜索引擎。
-
-把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
-
-</td>
-<td width="50%" valign="top">
-
-#### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
-
-<sub>`TypeScript`</sub>
-
-多模型请求的分发与切换，带依赖版本锁和变更记录。
-
-从改造国际版 WorkBuddy 开始，后来收敛成客户端描述 + 分发两层，接 Trae 时只加一份描述。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [pptx-generator](https://github.com/YGtemple/pptx-generator)
-
-<sub>`JavaScript` `Python`</sub>
-
-用代码生成 PPT。把元素组织成树形结构，坐标逐层累加，省去手工计算位置。
-
-另配一套 matplotlib 画图的脚本，用来生成算法图示。
-
-</td>
-<td width="50%" valign="top">
-
-#### [docx-generator](https://github.com/YGtemple/docx-generator)
-
-<sub>`JavaScript`</sub>
-
-用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
-
-<sub>`Prompt`</sub>
-
-四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
-
-</td>
-<td width="50%" valign="top">
-
-#### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
-
-<sub>`Markdown`</sub>
-
-整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [dsh-engineering-notes](https://github.com/YGtemple/dsh-engineering-notes)
-
-<sub>`Markdown`</sub>
-
-接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
-
-</td>
-<td width="50%" valign="top">
-
-#### [academic-skills-max](https://github.com/YGtemple/academic-skills-max)
-
-<sub>`Skill`</sub>
-
-8 个学术类技能的选型与串联说明。
 
 </td>
 </tr>
