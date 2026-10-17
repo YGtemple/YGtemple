@@ -6,15 +6,19 @@
 
 <br/>
 
-<sub>在做 AI 应用、游戏和自动化工具</sub>
+<sub>Building AI applications, games and automation tools</sub>
+
+<br/>
+
+<a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-C2185B?style=flat-square&labelColor=FCE4EC" height="22" alt="简体中文"/></a>
 
 <br/><br/>
 
-<a href="#ai-工具"><img src="https://img.shields.io/badge/AI%20%E5%B7%A5%E5%85%B7-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 工具"/></a>
-<a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
-<a href="#影视与内容"><img src="https://img.shields.io/badge/%E5%BD%B1%E8%A7%86%E4%B8%8E%E5%86%85%E5%AE%B9-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="影视与内容"/></a>
-<a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
-<a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
+<a href="#ai-tools"><img src="https://img.shields.io/badge/AI%20TOOLS-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI Tools"/></a>
+<a href="#ai-applications"><img src="https://img.shields.io/badge/AI%20APPLICATIONS-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI Applications"/></a>
+<a href="#film--content"><img src="https://img.shields.io/badge/FILM%20%26%20CONTENT-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="Film & Content"/></a>
+<a href="#games"><img src="https://img.shields.io/badge/GAMES-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="Games"/></a>
+<a href="#more"><img src="https://img.shields.io/badge/MORE-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="More"/></a>
 
 </div>
 
@@ -22,9 +26,9 @@
 
 ---
 
-<h2 id="ai-工具" align="center">🌸 AI 工具</h2>
+<h2 id="ai-tools" align="center">🌸 AI Tools</h2>
 
-<sub>把重复的活交给脚本——路由、文档、演示、素材</sub>
+<sub>Automating the repetitive work — routing, documents, prompts</sub>
 
 <br/>
 
@@ -36,9 +40,9 @@
 
 <sub>`TypeScript`</sub>
 
-让模型的请求能在多个客户端之间分发和切换，包括 WorkBuddy 的国际版。
+Routes model requests across several clients, including WorkBuddy's international build.
 
-国际版的登录流程、接口地址、会话续期都和国内版不同。实现上把每个客户端压成一份描述，分发层不认识任何具体产品——后来接 Trae 时只加了一份描述，路由代码没动。
+International login, endpoints and session refresh all differ from the domestic build. Each client is reduced to one declarative entry, so the router knows no product by name — adding Trae later took one entry and no routing changes.
 
 </td>
 <td width="50%" valign="top">
@@ -47,9 +51,9 @@
 
 <sub>`Python` `LangGraph` `FastAPI`</sub>
 
-网络梗检索 Agent，接入了多个模型和搜索引擎。
+A meme-retrieval agent wired to multiple models and search engines.
 
-把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
+Model calls, search and reasoning sit in three separate layers; when any provider fails the next one takes over.
 
 </td>
 </tr>
@@ -60,9 +64,9 @@
 
 <sub>`JavaScript` `Python`</sub>
 
-用代码生成 PPT。把元素组织成树形结构，坐标逐层累加，省去手工计算位置。
+Generates presentations in code. Elements form a tree and coordinates accumulate down the levels, so positions never need manual arithmetic.
 
-另配一套 matplotlib 画图的脚本，用来生成算法图示。
+Ships with a matplotlib script that draws the accompanying algorithm diagrams.
 
 </td>
 <td width="50%" valign="top">
@@ -71,7 +75,7 @@
 
 <sub>`JavaScript`</sub>
 
-用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
+Generates Word documents in code — headings, paragraphs, tables and badges are components, with Chinese/English font slots handled explicitly.
 
 </td>
 </tr>
@@ -82,7 +86,7 @@
 
 <sub>`Prompt`</sub>
 
-四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
+Four prompt generators for video: commercial TVC, Song-dynasty pastoral, monumental Chinese, and high-energy action.
 
 </td>
 <td width="50%" valign="top">
@@ -91,7 +95,7 @@
 
 <sub>`Markdown`</sub>
 
-整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
+Notes on problems hit while working inside various AI tools — local deployment, builds and page adaptation.
 
 </td>
 </tr>
@@ -102,7 +106,7 @@
 
 <sub>`Markdown`</sub>
 
-接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
+Debugging notes from integrating third-party providers: transport-level investigation, plugin structure, and deployment repair on Windows.
 
 </td>
 <td width="50%" valign="top">
@@ -111,7 +115,7 @@
 
 <sub>`Skill`</sub>
 
-8 个学术类技能的选型与串联说明。
+How to pick between and chain together eight academic skills.
 
 </td>
 </tr>
@@ -119,9 +123,9 @@
 
 ---
 
-<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
+<h2 id="ai-applications" align="center">🌸 AI Applications</h2>
 
-<sub>带完整交互的产品</sub>
+<sub>Products with full interaction</sub>
 
 <br/>
 
@@ -133,9 +137,9 @@
 
 <sub>`HTML` `C++`</sub>
 
-英语写作批改的桌面端与网页端。
+English writing feedback, as both a desktop app and a web page.
 
-网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
+The web side carries scoring criteria for several exams; the desktop side is Qt — three-column layout, network requests, local state persistence, about 1,300 lines.
 
 </td>
 <td width="50%" valign="top">
@@ -144,7 +148,7 @@
 
 <sub>`HTML`</sub>
 
-离线优先的日程助手，支持多视图、周期任务和自然语言录入。
+An offline-first schedule assistant with multiple views, recurring tasks and natural-language entry.
 
 </td>
 </tr>
@@ -155,7 +159,7 @@
 
 <sub>`HTML`</sub>
 
-表达训练系统的设计集，包含 17 项表达画像、评分标准和进步流的设计文档。
+Design set for a speech-training system: 17 expression profiles, scoring criteria, and the progress-flow design documents.
 
 </td>
 <td width="50%" valign="top">
@@ -164,7 +168,7 @@
 
 <sub>`Markdown` `Python`</sub>
 
-一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
+A product proposal for speech training — scope, research outline and demo script.
 
 </td>
 </tr>
@@ -175,7 +179,7 @@
 
 <sub>`HTML`</sub>
 
-长隆主题公园的 AI 智慧伴游方案，分游前、游中、游后三个阶段。
+An AI park-guide proposal for Chimelong, split into before, during and after the visit.
 
 </td>
 <td width="50%" valign="top">
@@ -184,7 +188,7 @@
 
 <sub>`CSS`</sub>
 
-双语 AI 术语知识库，每个术语配通俗解释和可直接复制的提问模板。
+A bilingual AI glossary — every term gets a plain-language explanation and a prompt template you can copy.
 
 </td>
 </tr>
@@ -192,9 +196,9 @@
 
 ---
 
-<h2 id="影视与内容" align="center">🌸 影视与内容</h2>
+<h2 id="film--content" align="center">🌸 Film &amp; Content</h2>
 
-<sub>从剧本到成片，以及围绕它的工具</sub>
+<sub>From script to cut, plus the tooling around it</sub>
 
 <br/>
 
@@ -206,9 +210,9 @@
 
 <sub>`AI Film` `Storyboard`</sub>
 
-把 AI 短剧的制作流程拆成剧本、资产、分镜、视频生成几个阶段，每个阶段都有对应的工作方法和检查项。
+Breaks AI short-drama production into stages — script, assets, storyboard, video — with working methods and checks for each.
 
-`cases/` 里放了四部片子的实际制作记录。
+`cases/` holds production records from four actual films.
 
 </td>
 <td width="50%" valign="top">
@@ -217,7 +221,7 @@
 
 <sub>`Python`</sub>
 
-爆款故事短片的素材库，把案例整理成可检索的结构，用起来会越积越多。
+A reference library of successful short stories, filed so it can be searched — the more you use it, the more it holds.
 
 </td>
 </tr>
@@ -228,7 +232,7 @@
 
 <sub>`Skill`</sub>
 
-剪映的自动化操作，附带规则与提示词。
+Automating CapCut/JianYing, with rules and prompts included.
 
 </td>
 <td width="50%" valign="top">
@@ -237,7 +241,7 @@
 
 <sub>`Skill`</sub>
 
-把剧本整理成镜头表，按 15 秒分段。
+Turns a script into a shot list, in 15-second segments.
 
 </td>
 </tr>
@@ -248,7 +252,7 @@
 
 <sub>`Skill` `Python`</sub>
 
-影视制作的工具与项目模板，包含 11 个 Skill 和跨平台安装脚本。
+Film-production tooling and project templates — 11 skills plus cross-platform install scripts.
 
 </td>
 <td width="50%" valign="top">
@@ -257,7 +261,7 @@
 
 <sub>`JavaScript` `Python`</sub>
 
-代码动画的渲染与音效脚本。
+Scripts for rendering code animation and its sound.
 
 </td>
 </tr>
@@ -265,7 +269,7 @@
 
 ---
 
-<h2 id="游戏" align="center">🌸 游戏</h2>
+<h2 id="games" align="center">🌸 Games</h2>
 
 <br/>
 
@@ -277,9 +281,9 @@
 
 <sub>`TypeScript` `Cocos Creator 3.8`</sub>
 
-微信小游戏，18 种玩法、5 档模式、240 关。
+A WeChat mini-game: 18 play modes, 5 difficulty tiers, 240 levels.
 
-玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
+Gameplay and data are aligned through a contract document; configuration and levels are script-generated and validated, with the toolchain under `tooling/`.
 
 </td>
 <td width="50%" valign="top">
@@ -288,7 +292,7 @@
 
 <sub>`Python` `Pygame`</sub>
 
-迷宫寻路的实现，包含五种算法和一组跑出来的性能对比数据。
+Maze pathfinding with five algorithms and a set of measured performance comparisons.
 
 </td>
 </tr>
@@ -296,7 +300,7 @@
 
 ---
 
-<h2 id="其他" align="center">🌸 其他</h2>
+<h2 id="more" align="center">🌸 More</h2>
 
 <br/>
 
@@ -304,45 +308,45 @@
 <tr>
 <td width="33%" valign="top">
 
-**文档与研究**
+**Docs & Research**
 
-[zhinengtiku](https://github.com/YGtemple/zhinengtiku)<br/><sub>题库平台的架构文档</sub>
+[zhinengtiku](https://github.com/YGtemple/zhinengtiku)<br/><sub>Quiz-platform architecture docs</sub>
 
-[legal-ai-agent-research](https://github.com/YGtemple/legal-ai-agent-research)<br/><sub>法律领域智能体的调研与方案</sub>
+[legal-ai-agent-research](https://github.com/YGtemple/legal-ai-agent-research)<br/><sub>Legal-domain agent research</sub>
 
-[China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global)<br/><sub>农业 AI 出海方向的整理</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**写作与编辑器**
-
-[UItimateWriter](https://github.com/YGtemple/UItimateWriter)<br/><sub>中文写作辅助</sub>
-
-[wechat-longform-article](https://github.com/YGtemple/wechat-longform-article)<br/><sub>公众号长文排版</sub>
-
-[qt-learning](https://github.com/YGtemple/qt-learning)<br/><sub>Qt 练习</sub>
-
-[cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ 课程设计</sub>
+[China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global)<br/><sub>Agricultural AI going global</sub>
 
 </td>
 <td width="33%" valign="top">
 
-**练习与记录**
+**Writing & Editors**
 
-[computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)<br/><sub>等级考试题库</sub>
+[UItimateWriter](https://github.com/YGtemple/UItimateWriter)<br/><sub>Chinese writing assistant</sub>
 
-[doubao-free](https://github.com/YGtemple/doubao-free)<br/><sub>浏览器扩展</sub>
+[wechat-longform-article](https://github.com/YGtemple/wechat-longform-article)<br/><sub>WeChat long-form layout</sub>
 
-[peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>成长站点</sub>
+[qt-learning](https://github.com/YGtemple/qt-learning)<br/><sub>Qt exercises</sub>
 
-[jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>选课状态监测</sub>
+[cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ coursework</sub>
 
-[virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)<br/><sub>课堂演讲演示</sub>
+</td>
+<td width="33%" valign="top">
 
-[ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation)<br/><sub>校园技术小组页面</sub>
+**Practice & Records**
 
-[zhuxin](https://github.com/YGtemple/zhuxin)<br/><sub>个人简历与作品集</sub>
+[computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)<br/><sub>Exam question bank</sub>
+
+[doubao-free](https://github.com/YGtemple/doubao-free)<br/><sub>Browser extension</sub>
+
+[peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>Growth site</sub>
+
+[jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>Course-registration monitor</sub>
+
+[virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)<br/><sub>Class presentation</sub>
+
+[ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation)<br/><sub>Campus tech club page</sub>
+
+[zhuxin](https://github.com/YGtemple/zhuxin)<br/><sub>Résumé and portfolio</sub>
 
 </td>
 </tr>
