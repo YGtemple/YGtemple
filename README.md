@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF0F5,100:F7A8C4&height=200&section=header&fontSize=10" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF0F5,100:F7A8C4&height=190&section=header&fontSize=10" width="100%"/>
 
 <img src="https://img.shields.io/badge/YGtemple-C2185B?style=for-the-badge&labelColor=F7A8C4" height="34"/>
 
@@ -26,7 +26,11 @@
 
 <br/>
 
-### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [word-sprite-quest](https://github.com/YGtemple/word-sprite-quest)
 
 <sub>`TypeScript` `Cocos Creator 3.8`</sub>
 
@@ -34,19 +38,23 @@
 
 玩法层与数据层通过一份契约文档对齐，配置和关卡由脚本生成并校验，工具链放在 `tooling/` 里。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
+#### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
 
 <sub>`Python` `LangGraph` `FastAPI`</sub>
 
 基于 LangGraph 与 FastAPI 的网络梗检索 Agent，接入了多个模型和搜索引擎。
 
-实现上把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。返回的 JSON 格式不规范时，由 `json_repair.py` 修补。
+把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
 
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### [ai-drama-master-suite](https://github.com/YGtemple/ai-drama-master-suite)
+#### [ai-drama-master-suite](https://github.com/YGtemple/ai-drama-master-suite)
 
 <sub>`AI Film` `Storyboard`</sub>
 
@@ -54,13 +62,18 @@
 
 `cases/` 里放了四部片子的实际制作记录。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
+#### [video-prompt-master](https://github.com/YGtemple/video-prompt-master)
 
 <sub>`Prompt`</sub>
 
 四套视频提示词生成器，分别面向电商广告、古风写意、宏大叙事和动作场面。
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -68,15 +81,20 @@
 
 <br/>
 
-### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
 
 <sub>`Python` `Pygame`</sub>
 
 迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [rongyan](https://github.com/YGtemple/rongyan)
+#### [rongyan](https://github.com/YGtemple/rongyan)
 
 <sub>`HTML` `C++`</sub>
 
@@ -84,41 +102,58 @@
 
 网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
 
+</td>
+</tr>
+</table>
+
 ---
 
 <h2 id="-内容与游戏" align="center">🌸 内容与游戏</h2>
 
 <br/>
 
-### [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)
 
 <sub>`Skill`</sub>
 
 剪映的自动化操作，附带规则与提示词。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)
+#### [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)
 
 <sub>`Skill`</sub>
 
 把剧本整理成镜头表。
 
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
+#### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
 
 <sub>`JavaScript` `Python`</sub>
 
 代码动画的渲染与音效脚本。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi)
+#### [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi)
 
 <sub>`Skill`</sub>
 
 影视制作相关的工具与项目模板。
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -126,7 +161,11 @@
 
 <br/>
 
-### [pptx-generator](https://github.com/YGtemple/pptx-generator)
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [pptx-generator](https://github.com/YGtemple/pptx-generator)
 
 <sub>`JavaScript` `Python`</sub>
 
@@ -134,45 +173,58 @@
 
 另配一套 matplotlib 画图的脚本，用来生成算法图示。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [docx-generator](https://github.com/YGtemple/docx-generator)
+#### [docx-generator](https://github.com/YGtemple/docx-generator)
 
 <sub>`JavaScript`</sub>
 
 用代码生成 Word 文档，封装了标题、段落、表格、徽章等常用组件和中英文字体设置。
 
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
+#### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
 
 <sub>`JavaScript`</sub>
 
 多模型请求的分发与切换，带依赖版本锁和变更记录。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)
+#### [computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)
 
 <sub>`HTML`</sub>
 
 计算机等级考试的题库与刷题页面，题库和界面打包在同一个小文件里，双击就能用。
 
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
+#### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
 
 <sub>`Markdown`</sub>
 
 整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
+#### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
 
 <sub>`Markdown`</sub>
 
 一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -180,7 +232,7 @@
 
 <br/>
 
-<table>
+<table align="center">
 <tr>
 <td width="33%" valign="top">
 
