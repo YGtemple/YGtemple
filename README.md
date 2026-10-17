@@ -10,11 +10,11 @@
 
 <br/><br/>
 
-<a href="#-精选"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20%E7%B2%BE%E9%80%89-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="精选"/></a>
-<a href="#-ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
-<a href="#-内容与游戏"><img src="https://img.shields.io/badge/%E5%86%85%E5%AE%B9%E4%B8%8E%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="内容与游戏"/></a>
-<a href="#-工具与脚本"><img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%84%9A%E6%9C%AC-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="工具与脚本"/></a>
-<a href="#-其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
+<a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
+<a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
+<a href="#影视与内容"><img src="https://img.shields.io/badge/%E5%BD%B1%E8%A7%86%E4%B8%8E%E5%86%85%E5%AE%B9-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="影视与内容"/></a>
+<a href="#工具与脚本"><img src="https://img.shields.io/badge/%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%84%9A%E6%9C%AC-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="工具与脚本"/></a>
+<a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
 
 </div>
 
@@ -22,7 +22,7 @@
 
 ---
 
-<h2 id="-精选" align="center">🌸 精选</h2>
+<h2 id="游戏" align="center">🌸 游戏</h2>
 
 <br/>
 
@@ -41,6 +41,26 @@
 </td>
 <td width="50%" valign="top">
 
+#### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
+
+<sub>`Python` `Pygame`</sub>
+
+迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
 #### [Viral-meme-gengbaike](https://github.com/YGtemple/Viral-meme-gengbaike)
 
 <sub>`Python` `LangGraph` `FastAPI`</sub>
@@ -50,7 +70,49 @@
 把模型调用、搜索、推理拆成三层，任意一家服务不可用时自动切到下一个。
 
 </td>
+<td width="50%" valign="top">
+
+#### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
+
+<sub>`TypeScript`</sub>
+
+多模型请求的分发与切换，带依赖版本锁和变更记录。
+
+从改造国际版 WorkBuddy 开始，后来收敛成客户端描述 + 分发两层，接 Trae 时只加一份描述。
+
+</td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [rongyan](https://github.com/YGtemple/rongyan)
+
+<sub>`HTML` `C++`</sub>
+
+英语写作批改的桌面端与网页端。
+
+网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
+
+</td>
+<td width="50%" valign="top">
+
+#### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
+
+<sub>`Markdown`</sub>
+
+一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 id="影视与内容" align="center">🌸 影视与内容</h2>
+
+<br/>
+
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
@@ -73,46 +135,6 @@
 
 </td>
 </tr>
-</table>
-
----
-
-<h2 id="-ai-应用" align="center">🌸 AI 应用</h2>
-
-<br/>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-#### [labyrinth-pathfinder](https://github.com/YGtemple/labyrinth-pathfinder)
-
-<sub>`Python` `Pygame`</sub>
-
-迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
-
-</td>
-<td width="50%" valign="top">
-
-#### [rongyan](https://github.com/YGtemple/rongyan)
-
-<sub>`HTML` `C++`</sub>
-
-英语写作批改的桌面端与网页端。
-
-网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 id="-内容与游戏" align="center">🌸 内容与游戏</h2>
-
-<br/>
-
-<table align="center">
 <tr>
 <td width="50%" valign="top">
 
@@ -157,7 +179,7 @@
 
 ---
 
-<h2 id="-工具与脚本" align="center">🌸 工具与脚本</h2>
+<h2 id="工具与脚本" align="center">🌸 工具与脚本</h2>
 
 <br/>
 
@@ -187,15 +209,6 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [dsh-multi-router-intl](https://github.com/YGtemple/dsh-multi-router-intl)
-
-<sub>`JavaScript`</sub>
-
-多模型请求的分发与切换，带依赖版本锁和变更记录。
-
-</td>
-<td width="50%" valign="top">
-
 #### [computelevelTWOC](https://github.com/YGtemple/computelevelTWOC)
 
 <sub>`HTML`</sub>
@@ -203,8 +216,6 @@
 计算机等级考试的题库与刷题页面，题库和界面打包在同一个小文件里，双击就能用。
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [agent-debug-notes](https://github.com/YGtemple/agent-debug-notes)
@@ -214,21 +225,12 @@
 整理了在不同 AI 工具里调试时遇到的问题和处理办法，涉及本地部署、构建和页面适配。
 
 </td>
-<td width="50%" valign="top">
-
-#### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
-
-<sub>`Markdown`</sub>
-
-一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
-
-</td>
 </tr>
 </table>
 
 ---
 
-<h2 id="-其他" align="center">🌸 其他</h2>
+<h2 id="其他" align="center">🌸 其他</h2>
 
 <br/>
 
