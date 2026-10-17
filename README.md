@@ -45,7 +45,7 @@
 
 <sub>`Python` `Pygame`</sub>
 
-迷宫寻路的实现，包含几种算法和一组跑出来的性能对比数据。
+迷宫寻路的实现，包含五种算法和一组跑出来的性能对比数据。
 
 </td>
 </tr>
@@ -96,11 +96,51 @@
 </td>
 <td width="50%" valign="top">
 
+#### [zhixu](https://github.com/YGtemple/zhixu)
+
+<sub>`HTML`</sub>
+
+离线优先的日程助手，支持多视图、周期任务和自然语言录入。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [zhiyan](https://github.com/YGtemple/zhiyan)
+
+<sub>`HTML`</sub>
+
+表达训练系统的设计集，包含 17 项表达画像、评分标准和进步流的设计文档。
+
+</td>
+<td width="50%" valign="top">
+
 #### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
 
-<sub>`Markdown`</sub>
+<sub>`Markdown` `Python`</sub>
 
 一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [changlong](https://github.com/YGtemple/changlong)
+
+<sub>`HTML`</sub>
+
+长隆主题公园的 AI 智慧伴游方案，分游前、游中、游后三个阶段。
+
+</td>
+<td width="50%" valign="top">
+
+#### [YGknowledgeBase](https://github.com/YGtemple/YGknowledgeBase)
+
+<sub>`CSS`</sub>
+
+双语 AI 术语知识库，每个术语配通俗解释和可直接复制的提问模板。
 
 </td>
 </tr>
@@ -138,6 +178,15 @@
 <tr>
 <td width="50%" valign="top">
 
+#### [ai-story-vault](https://github.com/YGtemple/ai-story-vault)
+
+<sub>`Python`</sub>
+
+爆款故事短片的素材库，把案例整理成可检索的结构，用起来会越积越多。
+
+</td>
+<td width="50%" valign="top">
+
 #### [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill)
 
 <sub>`Skill`</sub>
@@ -145,17 +194,17 @@
 剪映的自动化操作，附带规则与提示词。
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director)
 
 <sub>`Skill`</sub>
 
-把剧本整理成镜头表。
+把剧本整理成镜头表，按 15 秒分段。
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook)
@@ -165,13 +214,24 @@
 代码动画的渲染与音效脚本。
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi)
 
+<sub>`Skill` `Python`</sub>
+
+影视制作的工具与项目模板，包含 11 个 Skill 和跨平台安装脚本。
+
+</td>
+<td width="50%" valign="top">
+
+#### [academic-skills-max](https://github.com/YGtemple/academic-skills-max)
+
 <sub>`Skill`</sub>
 
-影视制作相关的工具与项目模板。
+8 个学术类技能的选型与串联说明。
 
 </td>
 </tr>
@@ -226,6 +286,26 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [dsh-engineering-notes](https://github.com/YGtemple/dsh-engineering-notes)
+
+<sub>`Markdown`</sub>
+
+接入第三方服务时的调试记录，包括传输层排查、插件结构和 Windows 下的部署修复。
+
+</td>
+<td width="50%" valign="top">
+
+#### [virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)
+
+<sub>`HTML`</sub>
+
+弗吉尼亚·伍尔夫生平与《Professions for Women》的课堂演讲演示。
+
+</td>
+</tr>
 </table>
 
 ---
@@ -266,7 +346,7 @@
 
 [doubao-free](https://github.com/YGtemple/doubao-free)<br/><sub>浏览器扩展</sub>
 
-[peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>陪伴类小应用</sub>
+[peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>成长站点</sub>
 
 [jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>选课状态监测</sub>
 
