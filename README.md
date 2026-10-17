@@ -176,51 +176,57 @@ Cocos Creator 3.8 做的微信小游戏，18 种玩法、5 档模式、240 关�
 
 <br/>
 
-<details>
-<summary><b>文档与研究</b></summary>
+<table align="center">
+<tr>
+<td width="33%" valign="top">
 
-<br/>
+**文档与研究**
 
-| 仓库 | 内容 |
-|---|---|
-| [zhinengtiku](https://github.com/YGtemple/zhinengtiku) | 题库平台的架构文档，含战略、架构、接口、数据库、AI 服务、安全与运维 |
-| [legal-ai-agent-research](https://github.com/YGtemple/legal-ai-agent-research) | 法律领域智能体的调研与方案 |
-| [China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global) | 农业 AI 出海方向的整理 |
+[zhinengtiku](https://github.com/YGtemple/zhinengtiku) · 题库平台的架构文档
 
-</details>
+[legal-ai-agent-research](https://github.com/YGtemple/legal-ai-agent-research) · 法律领域智能体的调研与方案
 
-<details>
-<summary><b>写作与编辑器</b></summary>
+[China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global) · 农业 AI 出海方向的整理
 
-<br/>
+</td>
+<td width="33%" valign="top">
 
-| 仓库 | 内容 |
-|---|---|
-| [UItimateWriter](https://github.com/YGtemple/UItimateWriter) | 中文写作辅助，按场景区分的写作方法 |
-| [wechat-longform-article](https://github.com/YGtemple/wechat-longform-article) | 公众号长文的排版模板 |
-| [jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill) | 剪映的自动化操作 |
-| [drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director) | 把剧本整理成镜头表 |
-| [code-animation-playbook](https://github.com/YGtemple/code-animation-playbook) | 代码动画的渲染与音效脚本 |
-| [ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi) | 影视制作相关的若干工具与项目模板 |
+**写作与编辑器**
 
-</details>
+[UItimateWriter](https://github.com/YGtemple/UItimateWriter) · 中文写作辅助
 
-<details>
-<summary><b>练习与记录</b></summary>
+[wechat-longform-article](https://github.com/YGtemple/wechat-longform-article) · 公众号长文排版
 
-<br/>
+[jianying-editor-skill](https://github.com/YGtemple/jianying-editor-skill) · 剪映的自动化操作
 
-| 仓库 | 内容 |
-|---|---|
-| [qt-learning](https://github.com/YGtemple/qt-learning) | Qt 练习，含表达式解析、定时器、网络与多线程 |
-| [cpp-course-designs](https://github.com/YGtemple/cpp-course-designs) | C++ 课程设计，职工管理系统与通讯录 |
-| [doubao-free](https://github.com/YGtemple/doubao-free) | 浏览器扩展 |
-| [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai) | 陪伴类小应用 |
-| [jw-monitor](https://github.com/YGtemple/jw-monitor) | 选课状态监测 |
-| [ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation) | 校园技术小组的页面 |
-| [zhuxin](https://github.com/YGtemple/zhuxin) | 个人简历与作品集页面 |
+[drama-storyboard-director](https://github.com/YGtemple/drama-storyboard-director) · 剧本整理成镜头表
 
-</details>
+[code-animation-playbook](https://github.com/YGtemple/code-animation-playbook) · 代码动画的渲染与音效
+
+[ai-studio-yangzi](https://github.com/YGtemple/ai-studio-yangzi) · 影视制作的工具与模板
+
+</td>
+<td width="33%" valign="top">
+
+**练习与记录**
+
+[qt-learning](https://github.com/YGtemple/qt-learning) · Qt 练习
+
+[cpp-course-designs](https://github.com/YGtemple/cpp-course-designs) · C++ 课程设计
+
+[doubao-free](https://github.com/YGtemple/doubao-free) · 浏览器扩展
+
+[peini-manmanlai](https://github.com/YGtemple/peini-manmanlai) · 陪伴类小应用
+
+[jw-monitor](https://github.com/YGtemple/jw-monitor) · 选课状态监测
+
+[ComputeCommunicationAssociation](https://github.com/YGtemple/ComputeCommunicationAssociation) · 校园技术小组页面
+
+[zhuxin](https://github.com/YGtemple/zhuxin) · 个人简历与作品集
+
+</td>
+</tr>
+</table>
 
 <br/>
 
