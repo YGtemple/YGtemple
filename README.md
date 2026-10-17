@@ -10,8 +10,8 @@
 
 <br/><br/>
 
-<a href="#ai-工具"><img src="https://img.shields.io/badge/AI%20%E5%B7%A5%E5%85%B7-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 工具"/></a>
 <a href="#ai-应用"><img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 应用"/></a>
+<a href="#ai-工具"><img src="https://img.shields.io/badge/AI%20%E5%B7%A5%E5%85%B7-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="AI 工具"/></a>
 <a href="#影视与内容"><img src="https://img.shields.io/badge/%E5%BD%B1%E8%A7%86%E4%B8%8E%E5%86%85%E5%AE%B9-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="影视与内容"/></a>
 <a href="#游戏"><img src="https://img.shields.io/badge/%E6%B8%B8%E6%88%8F-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="游戏"/></a>
 <a href="#其他"><img src="https://img.shields.io/badge/%E5%85%B6%E4%BB%96-C2185B?style=flat-square&labelColor=FCE4EC" height="24" alt="其他"/></a>
@@ -19,6 +19,79 @@
 </div>
 
 <br/>
+
+---
+
+<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
+
+<sub>带完整交互的产品</sub>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+#### [rongyan](https://github.com/YGtemple/rongyan)
+
+<sub>`HTML` `C++`</sub>
+
+英语写作批改的桌面端与网页端。
+
+网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
+
+</td>
+<td width="50%" valign="top">
+
+#### [zhixu](https://github.com/YGtemple/zhixu)
+
+<sub>`HTML`</sub>
+
+离线优先的日程助手，支持多视图、周期任务和自然语言录入。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [zhiyan](https://github.com/YGtemple/zhiyan)
+
+<sub>`HTML`</sub>
+
+表达训练系统的设计集，包含 17 项表达画像、评分标准和进步流的设计文档。
+
+</td>
+<td width="50%" valign="top">
+
+#### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
+
+<sub>`Markdown` `Python`</sub>
+
+一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [changlong](https://github.com/YGtemple/changlong)
+
+<sub>`HTML`</sub>
+
+长隆主题公园的 AI 智慧伴游方案，分游前、游中、游后三个阶段。
+
+</td>
+<td width="50%" valign="top">
+
+#### [YGknowledgeBase](https://github.com/YGtemple/YGknowledgeBase)
+
+<sub>`CSS`</sub>
+
+双语 AI 术语知识库，每个术语配通俗解释和可直接复制的提问模板。
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -112,79 +185,6 @@
 <sub>`Skill`</sub>
 
 8 个学术类技能的选型与串联说明。
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 id="ai-应用" align="center">🌸 AI 应用</h2>
-
-<sub>带完整交互的产品，不只是脚本</sub>
-
-<br/>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-#### [rongyan](https://github.com/YGtemple/rongyan)
-
-<sub>`HTML` `C++`</sub>
-
-英语写作批改的桌面端与网页端。
-
-网页端支持多种考试的评分标准；桌面端用 Qt 实现了三栏布局、网络请求与本地状态保存，约 1300 行。
-
-</td>
-<td width="50%" valign="top">
-
-#### [zhixu](https://github.com/YGtemple/zhixu)
-
-<sub>`HTML`</sub>
-
-离线优先的日程助手，支持多视图、周期任务和自然语言录入。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [zhiyan](https://github.com/YGtemple/zhiyan)
-
-<sub>`HTML`</sub>
-
-表达训练系统的设计集，包含 17 项表达画像、评分标准和进步流的设计文档。
-
-</td>
-<td width="50%" valign="top">
-
-#### [zhiyan-tedify](https://github.com/YGtemple/zhiyan-tedify)
-
-<sub>`Markdown` `Python`</sub>
-
-一个表达训练产品的方案文档，包含产品范围、调研提纲和演示脚本。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [changlong](https://github.com/YGtemple/changlong)
-
-<sub>`HTML`</sub>
-
-长隆主题公园的 AI 智慧伴游方案，分游前、游中、游后三个阶段。
-
-</td>
-<td width="50%" valign="top">
-
-#### [YGknowledgeBase](https://github.com/YGtemple/YGknowledgeBase)
-
-<sub>`CSS`</sub>
-
-双语 AI 术语知识库，每个术语配通俗解释和可直接复制的提问模板。
 
 </td>
 </tr>
