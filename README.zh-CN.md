@@ -119,6 +119,20 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [10router-multi-account-gateway](https://github.com/YGtemple/10router-multi-account-gateway)
+
+<sub>`JavaScript`</sub>
+
+把 WorkBuddy、Trae 等多个平台账号接入统一的 OpenAI 兼容 API。
+
+内置多账号调度、自动签到、积分同步和监控台，一个账号额度用尽时按规则自动切到下一个。
+
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -265,6 +279,20 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [video-skills-collection](https://github.com/YGtemple/video-skills-collection)
+
+<sub>`Skill` `Python`</sub>
+
+20 个 AI 视频制作技能，覆盖选题、剧本、分镜、资产、提示词、生成、审核、交付全链路。
+
+兼容 Claude Code、DSH 等任意支持 SKILL.md 的 Agent 直接拉取。
+
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -306,7 +334,7 @@
 
 <table align="center">
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **文档与研究**
 
@@ -317,7 +345,7 @@
 [China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global)<br/><sub>农业 AI 出海方向的整理</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **写作与编辑器**
 
@@ -330,7 +358,7 @@
 [cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ 课程设计</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **练习与记录**
 
@@ -341,6 +369,15 @@
 [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>成长站点</sub>
 
 [jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>选课状态监测</sub>
+
+</td>
+<td width="25%" valign="top">
+
+**校园与作品集**
+
+[shengda-saishi-hui](https://github.com/YGtemple/shengda-saishi-hui)<br/><sub>校园赛事汇总</sub>
+
+[resume-2040](https://github.com/YGtemple/resume-2040)<br/><sub>3D 空间简历</sub>
 
 [virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)<br/><sub>课堂演讲演示</sub>
 
