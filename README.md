@@ -119,6 +119,20 @@ How to pick between and chain together eight academic skills.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [10router-multi-account-gateway](https://github.com/YGtemple/10router-multi-account-gateway)
+
+<sub>`JavaScript`</sub>
+
+Brings WorkBuddy, Trae and other platform accounts behind one OpenAI-compatible API.
+
+Per-account scheduling, auto check-in, points sync and a monitoring dashboard are built in. Routing rules pick the next account when one is exhausted.
+
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -265,6 +279,20 @@ Scripts for rendering code animation and its sound.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [video-skills-collection](https://github.com/YGtemple/video-skills-collection)
+
+<sub>`Skill` `Python`</sub>
+
+Twenty production skills for AI video, covering topic selection, script, storyboard, assets, prompts, generation, review and delivery.
+
+Works with any SKILL.md-compatible agent such as Claude Code or DSH.
+
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -306,7 +334,7 @@ Maze pathfinding with five algorithms and a set of measured performance comparis
 
 <table align="center">
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Docs & Research**
 
@@ -317,7 +345,7 @@ Maze pathfinding with five algorithms and a set of measured performance comparis
 [China-s-Smart-Agricultural-AI-Going-Global](https://github.com/YGtemple/China-s-Smart-Agricultural-AI-Going-Global)<br/><sub>Agricultural AI going global</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Writing & Editors**
 
@@ -330,7 +358,7 @@ Maze pathfinding with five algorithms and a set of measured performance comparis
 [cpp-course-designs](https://github.com/YGtemple/cpp-course-designs)<br/><sub>C++ coursework</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 **Practice & Records**
 
@@ -341,6 +369,15 @@ Maze pathfinding with five algorithms and a set of measured performance comparis
 [peini-manmanlai](https://github.com/YGtemple/peini-manmanlai)<br/><sub>Growth site</sub>
 
 [jw-monitor](https://github.com/YGtemple/jw-monitor)<br/><sub>Course-registration monitor</sub>
+
+</td>
+<td width="25%" valign="top">
+
+**Campus & Portfolio**
+
+[shengda-saishi-hui](https://github.com/YGtemple/shengda-saishi-hui)<br/><sub>Campus competitions directory</sub>
+
+[resume-2040](https://github.com/YGtemple/resume-2040)<br/><sub>3D spatial résumé</sub>
 
 [virginia-woolf-presentation](https://github.com/YGtemple/virginia-woolf-presentation)<br/><sub>Class presentation</sub>
 
